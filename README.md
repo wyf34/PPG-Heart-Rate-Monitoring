@@ -1,8 +1,5 @@
 # PPG-Heart-Rate-Monitoring
 ## 结合ACC数据对PPG信号进行处理计算心率
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![NumPy](https://img.shields.io/badge/NumPy-SciPy-success)
-![License](https://img.shields.io/badge/License-MIT-green)
 结合 PPG 与三轴加速度计信号，通过 NLMS 自适应滤波去除运动伪影、SQI 信号质量评估、动静场景自适应参数，实现多场景心率检测。Python主实现 + C++版。
 ### 文件介绍
 - ppg_pipeline.py为数据处理程序
